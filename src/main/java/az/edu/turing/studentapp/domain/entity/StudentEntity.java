@@ -13,4 +13,4 @@ public class StudentEntity {
     private Boolean gender;
     private Double grade;
     private Long studentNumber;
-
+}

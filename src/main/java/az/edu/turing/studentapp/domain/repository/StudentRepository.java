@@ -13,5 +13,5 @@ public interface StudentRepository {
 
     Optional<StudentEntity> findById(Long id);
 
-    oid deleteById(Long id);
+    void deleteById(Long id);
 }

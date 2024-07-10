@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/students")
 public class StudentController {
 
-     final StudentService studentService;
+    private final StudentService studentService;
 
     @PostMapping("/create")
     public StudentEntity createStudent(@RequestBody StudentEntity student) {

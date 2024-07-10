@@ -34,7 +34,7 @@ public class InMemoryStudentRepository implements StudentRepository {
     }
 
     @Override
-    ublic Optional<StudentEntity> findById(Long id) {
+    public Optional<StudentEntity> findById(Long id) {
         return STUDENTS.stream().filter(studentEntity -> studentEntity.getId().equals(id)).findFirst();
     }
 
